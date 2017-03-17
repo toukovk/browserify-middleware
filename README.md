@@ -92,7 +92,7 @@ Require `module-d` with custom options (to be passed on to browserify).  In this
 
 The `options` passed to each middleware function override the defaults specified in `settings`.
 
-Setings has two properties `settings.production` and `settings.development` which specify the default settings for each environment.  The current environment is specified by `settings.mode` and defaults to `process.env.NODE_ENV || 'development'`
+Settings has two properties `settings.production` and `settings.development` which specify the default settings for each environment.  The current environment is specified by `settings.mode` and defaults to `process.env.NODE_ENV || 'development'`
 
 Production defaults:
 
